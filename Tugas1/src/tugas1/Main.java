@@ -54,8 +54,7 @@ public class Main {
                     Balok balok = new Balok(panjang,lebar,tinggi);
                     
                     System.out.println("Luas Persegi Panjang : " + balok.luas());
-                    System.out.println("Keliling Persegi Panjang : " + balok.keliling());  
-
+                    System.out.println("Keliling Persegi Panjang : " + balok.keliling()); 
                     System.out.println("Volume Balok : " + balok.volume());
                     System.out.println("Luas Permukaan Balok : " + balok.luas(tinggi)); 
                 
@@ -67,7 +66,6 @@ public class Main {
                     jari = input.nextDouble();
                     
                     Tabung tabung = new Tabung(jari,tinggi);
-                    Lingkaran lingkaran = new Lingkaran(jari);
                    
                     System.out.println("Luas Lingkaran : " + tabung.luas());
                     System.out.println("Keliling Lingkaran : " + tabung.keliling());
