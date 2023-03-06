@@ -83,12 +83,6 @@ public class Main {
             {
                 ulang = true;
             }  
-        }
-        
-        
-        
-                      
-                    
+        }                    
     }
-    
 }
