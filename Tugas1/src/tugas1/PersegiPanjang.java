@@ -24,6 +24,6 @@ public class PersegiPanjang implements MenghitungBidang{
     
     @Override
     public double keliling(){
-        return (2*panjang)+(2*lebar);
+        return (2*panjang)+(2*lebar); 
     }
 }

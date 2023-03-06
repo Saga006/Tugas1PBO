@@ -10,5 +10,5 @@ package tugas1;
  */
 public interface MenghitungRuang {
     double volume();
-    double luas();
+    double luas(double tinggi);
 }

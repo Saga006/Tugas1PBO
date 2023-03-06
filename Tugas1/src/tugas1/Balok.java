@@ -16,6 +16,10 @@ public class Balok extends PersegiPanjang implements MenghitungRuang{
         this.tinggi = tinggi;
     }
 
+    public double getTinggi() {
+        return tinggi;
+    }
+
     public void setTinggi(double tinggi) {
         this.tinggi = tinggi;
     }
@@ -26,7 +30,7 @@ public class Balok extends PersegiPanjang implements MenghitungRuang{
     }
 
     @Override
-    public double luas() {
+    public double luas(double tinggi) {
         return 2*((super.luas()) + (panjang*tinggi)+(lebar*tinggi));
     }
 }

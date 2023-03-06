@@ -18,12 +18,10 @@ public class Lingkaran implements MenghitungBidang{
     @Override
     public double luas() {
         return Math.PI*jari*jari;
-        
     }
     
     @Override
     public double keliling() {
         return 2*Math.PI*jari;
     }
-
 }

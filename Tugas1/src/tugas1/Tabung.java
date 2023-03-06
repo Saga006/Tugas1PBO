@@ -16,6 +16,10 @@ public class Tabung extends Lingkaran implements MenghitungRuang{
         this.tinggi = tinggi;
     }
 
+    public double getTinggi() {
+        return tinggi;
+    }
+
     public void setTinggi(double tinggi) {
         this.tinggi = tinggi;
     }
@@ -26,7 +30,7 @@ public class Tabung extends Lingkaran implements MenghitungRuang{
     }
 
     @Override
-    public double luas() {
+    public double luas(double tinggi) {
         return super.keliling()*(jari+tinggi);
     }
     
